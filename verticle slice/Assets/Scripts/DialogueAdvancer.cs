@@ -1,18 +1,37 @@
 using UnityEngine;
 using Unity.VisualScripting;
 
-public class DialogueAdvancer : MonoBehaviour
+namespace W4Activity
 {
-    [SerializeField] private DialogueNode nextLine;
-
-    // Button hooks up to this method
-    public void ChooseDialogue ()
+    
+    public class DialogueAdvancer : MonoBehaviour
     {
-        EventBus.Trigger(EventNames.NewDialogueEvent, nextLine);
+        [SerializeField] 
+        private DialogueNode DialogueNode ;
+        // Singleton stuff- allows this class to be accessed from anywhere in the codebase without a reference (like a member variable)
+        // do not edit this line
+        public static DialogueAdvancer _Instance {get; private set;}
+
+        // More Singleton stuff
+        // do not edit this method
+        private void Awake() {
+            if (_Instance != null && _Instance != this) {
+                Destroy(this);
+                return;
+            }
+
+            _Instance = this;
+        }
+
+void Start()
+    {
+       ChooseDialogue(DialogueNode);
     }
-
-    public void PrintHello ()
-    {
-        Debug.Log("hello!");
+        // Button hooks up to this method
+        // do not edit this method
+        public void ChooseDialogue (DialogueNode nextLine)
+        {
+            EventBus.Trigger(EventNames.NewDialogueEvent, nextLine);
+        }
     }
 }
