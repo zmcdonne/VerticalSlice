@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0b0970c6ef1044920be829a40b858552, type: 3}
-  m_Name: DialogueLine
+  m_Name: 2
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  Line: Im fixing your brain
+  Line: well thats concerning
   ReplyOptions:
-  - line: i dont need fixing
-    nextNode: {fileID: 11400000, guid: 35906299c8a5645ad99789a7af3ae71b, type: 2}
-  - line: damn
-    nextNode: {fileID: 11400000, guid: 35906299c8a5645ad99789a7af3ae71b, type: 2}
+  - line: wow
+    nextNode: {fileID: 11400000, guid: a9226844d8c2b4194b1fecbb8a61bc00, type: 2}
+  - line: nah
+    nextNode: {fileID: 11400000, guid: d96bb024031f84ee98f1c1d8e57f84b7, type: 2}
