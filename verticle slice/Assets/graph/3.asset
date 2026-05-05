@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b0970c6ef1044920be829a40b858552, type: 3}
   m_Name: 3
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  Line: so yep
+  Line: You should press go!
   ReplyOptions:
-  - line: yep
-    nextNode: {fileID: 0}
+  - line: I rather not
+    nextNode: {fileID: 11400000, guid: d96bb024031f84ee98f1c1d8e57f84b7, type: 2}
