@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/talking.unity
     guid: 8e325df7c9c694f4b8bdc5d63c78702c
+  - enabled: 1
+    path: Assets/Scenes/Mainarena.unity
+    guid: 5b6b624eb15994e80a85945a2796b64a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
