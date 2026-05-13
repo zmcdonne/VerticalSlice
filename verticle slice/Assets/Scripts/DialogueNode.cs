@@ -3,8 +3,8 @@ using UnityEngine;
 
    public enum SocialWeirdness
      {
-         Crashout,
-         Eyecontact,
+         Crashout,//0
+         Eyecontact,//1
          HairTouching,
          Frown,
          Nuteral 
