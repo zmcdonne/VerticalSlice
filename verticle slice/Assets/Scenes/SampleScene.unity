@@ -574,7 +574,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2aae42dbf69a547f9811ea211738ad85, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -17.06
+      value: -17.72
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2aae42dbf69a547f9811ea211738ad85, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2113,7 +2113,7 @@ Transform:
   m_GameObject: {fileID: 1415382743}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -22.88583, y: -16.7161, z: -15.621111}
+  m_LocalPosition: {x: -22.88583, y: -17.24, z: -15.621111}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2140,10 +2140,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1
-  m_Height: 1
+  m_Radius: 1.0576944
+  m_Height: 2.3406906
   m_Direction: 1
-  m_Center: {x: 4.31, y: 0.9, z: 3.86}
+  m_Center: {x: -4.4594603, y: 0.94402504, z: 4.315183}
 --- !u!95 &1415382748
 Animator:
   serializedVersion: 7
