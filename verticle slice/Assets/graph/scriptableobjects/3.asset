@@ -16,3 +16,4 @@ MonoBehaviour:
   ReplyOptions:
   - line: I rather not
     nextNode: {fileID: 11400000, guid: d96bb024031f84ee98f1c1d8e57f84b7, type: 2}
+  EmotinalState: 2
