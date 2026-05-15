@@ -34,7 +34,6 @@ ger in animatior  so it switches state based on emotinal state<img width="784" h
 
 <img width="152" height="121" alt="Screenshot 2026-05-14 at 10 57 33 PM" src="https://github.com/user-attachments/assets/d518ea17-4599-47d9-b9a4-58dabae8b4eb" />
 
-if before rest of code, method that doest switch method,
 
 #### AFTER CODING
 
