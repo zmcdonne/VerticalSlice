@@ -1,5 +1,4 @@
-<img width="152" height="121" alt="Screenshot 2026-05-14 at 10 57 33 PM" src="https://github.com/user-attachments/assets/fc758c8a-50b3-4856-92a2-fb3f3db7b919" />
-<img width="152" height="121" alt="Screenshot 2026-05-14 at 10 57 33 PM" src="https://github.com/user-attachments/assets/3bb87162-e4ec-4db3-ac9b-265e1c36d3d3" />
+
 # GDIM33 Vertical Slice
 ## Milestone 1 Devlog
 1.   For my "dialogue", visual scripting graph where, after entering, player movement is turned off during this phase. The canvas is enabled, triggering automatic dialogue and buttons used to advance to the next scene. Additionally, the cursor lock status is no longer set to locked. This is a state in my visual script state machine.
