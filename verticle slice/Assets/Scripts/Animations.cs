@@ -1,7 +1,15 @@
  using UnityEngine;
 
  public class PlayerAnimation : MonoBehaviour
- {}
+{
+    [SerializeField] GameObject privateAnimationClip ; 
+    private Animator animator; void 
+    Start() 
+    { animator = GetComponent<Animator>(); 
+    } 
+    }
+
+
 // {
 //     private Animator animator;
 

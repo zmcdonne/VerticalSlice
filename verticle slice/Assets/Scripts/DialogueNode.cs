@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
    public enum SocialWeirdness
@@ -12,9 +13,12 @@ using UnityEngine;
      }
 
 
+
 [CreateAssetMenu(fileName = "DialogueLine", menuName = "ScriptableObjects/DialogueLine", order = 1)]
 public class DialogueNode : ScriptableObject
 {
+    private int counter = 0 ;
+
     //---------------------------------------------------------------------
     // Variables
     //---------------------------------------------------------------------
@@ -24,6 +28,7 @@ public class DialogueNode : ScriptableObject
     [Tooltip("[Optional] The dialogue options for the player's response, and what node each response leads to.")]
     public List<PlayerReply> ReplyOptions;
     public SocialWeirdness EmotinalState; 
+
 
 }
 
