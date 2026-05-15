@@ -12,18 +12,18 @@
 ## Milestone 2 Devlog
  
 ### Quick summary of my complicating gameplay feature
-Q1. So, for the complicating factor, the NPC will have animations that play in response to dialogue, hinting at certain personality traits, as well as a traffic light visualizing the player's current likability score to signify the overall level of success currently. I believe this adds a level of complexity that will make this project challenging enough for this class. Certain choices will require the player to react to dialogue. The end product is a dialogue system where the character reacts to the player clicking on certain responses, which will affect both the animator and the UI. This completed feature is attached to the first NPC you speak with.
+ So, for the complicating factor, the NPC will have animations that play in response to dialogue, hinting at certain personality traits, as well as a traffic light visualizing the player's current likability score to signify the overall level of success currently. I believe this adds a level of complexity that will make this project challenging enough for this class. Certain choices will require the player to react to dialogue. The end product is a dialogue system where the character reacts to the player clicking on certain responses, which will affect both the animator and the UI. This completed feature is attached to the first NPC you speak with.
 
 #### Task breakdown for animator + Ui triggers from dialouge
 
-1. make the enums categories, animation, and UI assets
+1. Make the enum categories, animation, and UI assets
 * In the DialogueNode script, add a public enum called SocialWeirdness.
 * Define categories that represent emotional  states.
 * In the Animator, drag in and organize the character animations.
 * Create a new Canvas for the UI with traffic light visuals (green, yellow, red)
   
 2. Detect Scriptable Objects and Their Associated Enums in the Dialogue Progressor Graph
-* In the dialogue progression visual graph, detect which Scriptable Object is currently active with a new custom dialogue node to get emotional state 
+* In the dialogue progression visual graph, detect which Scriptable Object is currently active with a new custom dialogue node to get the emotional state 
 * Use the enum as the start of a switch statement branch
 *  Which animation should play
 *  Which UI state should update
@@ -36,9 +36,11 @@ Q1. So, for the complicating factor, the NPC will have animations that play in r
 
 #### AFTER CODING
 
-Yes, the quiz questions helped me for the first time map out tasks in properlists that actually helped me get started faster, and therfor had over a well to learn the steps i didnt know how ot do and add them to my action list, while the step breakdown activity helped me realize a lot about my project scope and issues I was unaware of when scripting and trying to trouble shoot on my own. If I were to do it again, I would have more alternatives for points where I could get stuck, as going through the plans showed me that it was not going to work because of scaling issues within my architecture. I will need to make separate dialogue progression systems and obtain the Scriptable Object from each NPC, which is what I will do for milestone 3. Therfor i dodnt overcomplcate the feature of social score from my pitch and kept it as simple as possible, while the animator's reactions work as planned, and the player can see if the action they took was good(green), bad(red), and neutral (yellow).
+ Yes, the quiz questions helped me for the first time map out tasks in properlists that actually helped me get started faster, and therfor had over a week to learn the steps i did nott know how to do and add them to my action list, while the step breakdown activity helped me realize a lot about my project scope and issues I was unaware of when scripting and trying to trouble shoot on my own. 
 
-I am bridging Visual Scripting in my code by calling from a custom event in the start of the dialouge progresser, and using a custom node from tje scriptable objects, the method caled dialuge node specifcally get enomtinal state, which getsis the enum attached to the Scriptable Object. Calling a custom event from a Graph through a C# method serves the purpose of creating the dialogue options to begin with, and a dialogue node. serving as a trigger to my dialogue buttons and text, interacting to create buttons from the attached scriptable object
+If I were to do it again, I would have more alternatives for points where I could get stuck, as going through the plans showed me that it was not going to work because of scaling issues within my architecture. I will need to make separate dialogue progression systems and obtain the Scriptable Object from each NPC, which is what I will do for milestone 3. Therfor i dodnt overcomplcate the feature of social score from my pitch and kept it as simple as possible, while the animator's reactions work as planned, and the player can see if the action they took was good(green), bad(red), and neutral (yellow).
+
+I am bridging Visual Scripting in my code by calling from a custom event in the start of the dialouge progresser, and using a custom node from the scriptable objects, the method called dialuge node specifcally get enomtinal state, which getsis the enum attached to the Scriptable Object. Calling a custom event from a Graph through a C# method serves the purpose of creating the dialogue options to begin with, and a dialogue node. serving as a trigger to my dialogue buttons and text, interacting to create buttons from the attached scriptable object
 <img width="784" height="434" alt="Screenshot 2026-05-14 at 10 57 27 PM" src="https://github.com/user-attachments/assets/8391e2fd-2da5-4140-bb84-62421631200e" />
 
 <img width="707" height="270" alt="Screenshot 2026-05-14 at 10 57 17 PM" src="https://github.com/user-attachments/assets/67347e6b-67aa-445e-a9e9-beb8517293d3" />
