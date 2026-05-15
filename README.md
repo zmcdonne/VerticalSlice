@@ -11,8 +11,8 @@
 
 ## Milestone 2 Devlog
  
-### quick summary of my complicating gameplay feature
-So for the complicating factor, the NPC will have animations that play in response to dialogue, hinting at certain personality traits, as well as a visual likability score using a traffic light system to signify the overall level of success currently. I believe this adds a level of complexity that will make this project challenging enough for this class. Certain choices will require the player to react to dialogue. The end product is a dialogue system where the character reacts to the player clicking on certain responses, which will affect both the animator and the UI.
+### Quick summary of my complicating gameplay feature
+Q1. So, for the complicating factor, the NPC will have animations that play in response to dialogue, hinting at certain personality traits, as well as a traffic light visualizing the player's current likability score to signify the overall level of success currently. I believe this adds a level of complexity that will make this project challenging enough for this class. Certain choices will require the player to react to dialogue. The end product is a dialogue system where the character reacts to the player clicking on certain responses, which will affect both the animator and the UI. This completed feature is attached to the first NPC you speak with.
 
 #### Task breakdown for animator + Ui triggers from dialouge
 
