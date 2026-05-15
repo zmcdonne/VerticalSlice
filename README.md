@@ -16,29 +16,29 @@ Q1. So, for the complicating factor, the NPC will have animations that play in r
 
 #### Task breakdown for animator + Ui triggers from dialouge
 
-1. make the enums categories, animaton and UI assets
+1. make the enums categories, animation, and UI assets
 * In the DialogueNode script, add a public enum called SocialWeirdness.
 * Define categories that represent emotional  states.
 * In the Animator, drag in and organize the character animations.
 * Create a new Canvas for the UI with traffic light visuals (green, yellow, red)
   
-2. Detect Scriptable Objects and Their Associated Enums in the Dialogue progresser Graph
-* In the dialogue progression visual graph, detect which Scriptable Object is currently active with new custom dialouge node get emotinal state 
+2. Detect Scriptable Objects and Their Associated Enums in the Dialogue Progressor Graph
+* In the dialogue progression visual graph, detect which Scriptable Object is currently active with a new custom dialogue node to get emotional state 
 * Use the enum as the start of a switch statement branch
 *  Which animation should play
 *  Which UI state should update
 
 3. Hook the Dialogue System Into the Animator State Machine
-* use triggers to fire off different animaton state transitions
-* Update UI elements by setting active the correct color and de activating other color
+* Use triggers to fire off different animation state transitions
+* Update UI elements by setting the active color and deactivating other colors
 
 
 
 #### AFTER CODING
 
-Yes, the quiz questions helped me for the first time map out tasks in properlists that actually helped me get started faster, and therfor had over a well to learn the steps i didnt know how ot do and add them to my action list, while the step breakdown activity helped me realize a lot about my project scope and issues I was unaware of when scripting and trying to trouble shoot on my own. If I were to do it again, I would have more alternatives for points where I could get stuck as Going through the plans showed me that it was not going to work because of scaling issues within my architecture. I will need to make separate dialogue progression systems and obtain the Scriptable Object from each NPC which is what i will do for milestone 3. Therfor i dodnt overcomplcate the feture of social score from my pitch and kept it as simple as possible, while the animator reactions work as plan and the palyer can see if the action they took was good(green), bad(red) and nuteeral(yellow).
+Yes, the quiz questions helped me for the first time map out tasks in properlists that actually helped me get started faster, and therfor had over a well to learn the steps i didnt know how ot do and add them to my action list, while the step breakdown activity helped me realize a lot about my project scope and issues I was unaware of when scripting and trying to trouble shoot on my own. If I were to do it again, I would have more alternatives for points where I could get stuck, as going through the plans showed me that it was not going to work because of scaling issues within my architecture. I will need to make separate dialogue progression systems and obtain the Scriptable Object from each NPC, which is what I will do for milestone 3. Therfor i dodnt overcomplcate the feature of social score from my pitch and kept it as simple as possible, while the animator's reactions work as planned, and the player can see if the action they took was good(green), bad(red), and neutral (yellow).
 
-I am bridging Visual Scripting in my code by calling from a custom event in the start of the dialouge progresser , and using a custom node from tje scriptable objects, the method caled dialuge node specifcally get enomtinal state , which getsis the enum attached to the Scriptable Object. Calling a custom event from a Graph through a C# method serves the purpose of creating the dialogue options to begin with and dialogue node. serving as a trigger to my ialouge buttons and text interacting to create buttons from the attached scriptable object
+I am bridging Visual Scripting in my code by calling from a custom event in the start of the dialouge progresser, and using a custom node from tje scriptable objects, the method caled dialuge node specifcally get enomtinal state, which getsis the enum attached to the Scriptable Object. Calling a custom event from a Graph through a C# method serves the purpose of creating the dialogue options to begin with, and a dialogue node. serving as a trigger to my dialogue buttons and text, interacting to create buttons from the attached scriptable object
 <img width="784" height="434" alt="Screenshot 2026-05-14 at 10 57 27 PM" src="https://github.com/user-attachments/assets/8391e2fd-2da5-4140-bb84-62421631200e" />
 
 <img width="707" height="270" alt="Screenshot 2026-05-14 at 10 57 17 PM" src="https://github.com/user-attachments/assets/67347e6b-67aa-445e-a9e9-beb8517293d3" />
@@ -46,7 +46,7 @@ I am bridging Visual Scripting in my code by calling from a custom event in the 
 <img width="152" height="121" alt="Screenshot 2026-05-14 at 10 57 33 PM" src="https://github.com/user-attachments/assets/d518ea17-4599-47d9-b9a4-58dabae8b4eb" />
 
 #### Unity system 
-I want to me graded for my scriptable object unty system, you can find it being used in dialouge triggering the animator of my blound NPC. 
+I want to be graded for my scriptable object Unity system, you can find it being used in dialogue, triggering the animator of my blound NPC. 
 
 
 ## Milestone 3 Devlog
