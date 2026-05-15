@@ -13,12 +13,24 @@
 ### quick summary of my complicating gameplay feature
 So for the complicating factor, the NPC will have animations that play in response to dialogue, hinting at certain personality traits, as well as a visual likability score using a traffic light system to signify the overall level of success currently. I believe this adds a level of complexity that will make this project challenging enough for this class. Certain choices will require the player to react to dialogue. The end product is a dialogue system where the character reacts to the player clicking on certain responses, which will affect both the animator and the UI.
 
-#### Task breakdown
-1.
-2.
+#### Task breakdown for animator + Ui triggers from dialouge
 
-Under each big step, write 2-6 more detailed steps towards completing that task. 
+1. make the enums categories, animaton and UI assets
+   -in the dialougeNode script add the  public enum SocialWeirdness
+   -in the animator drag in animations
+   -in a new canvas add traffic light colors
+2.i my dialogue prograessing visual grapgh detect scriptable objects and their assosiated enum
+3.hoock
+-  State machine sends a transition signal to the animation controller
+3. Fire off animation changes via Scriptable Objects
+   Implement a system that sends out signals and switches actions, affect ui , affect
+affect ui animation and a bar, and keepign track of numbers
 
+ger in animatior  so it switches state based on emotinal state<img width="784" height="434" alt="Screenshot 2026-05-14 at 10 57 27 PM" src="https://github.com/user-attachments/assets/8391e2fd-2da5-4140-bb84-62421631200e" />
+
+<img width="707" height="270" alt="Screenshot 2026-05-14 at 10 57 17 PM" src="https://github.com/user-attachments/assets/67347e6b-67aa-445e-a9e9-beb8517293d3" />
+
+if before rest of code, method that doest switch method,
 
 #### AFTER CODING
 
