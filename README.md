@@ -9,20 +9,20 @@
 
 
 ## Milestone 2 Devlog
-
-ANSWER THIS BEFORE CODING: Follow the same steps from the W5 Activity to write a 
+ 
 ### quick summary of my complicating gameplay feature
+Certain choices making it so you need to react to dialouge,   the end product is a dialogue system, the character reacts to you clicking on certain one needs to affect the animator and ui.
 
-### task breakdown
+#### Task breakdown
 1.
 2.
 
 Under each big step, write 2-6 more detailed steps towards completing that task. 
 
 
-### AFTER CODING Did the task steps break-down activity & quiz question (from W5) help you build a feature for this Milestone? Why or why not, and what would you do to improve your break-downs to be more helpful if you were to do them again?
-Explain how you bridged visual scripting and code in your game. I am bridign vis  in my code calling froma custum event, and method that checks the emotional state which is the enum attached to the scriptable object ,Are you calling a custom event from a Graph from a C# method, or vice versa, and what purpose does this serve in your architecture? Make sure to name the C# script(s) involved, and attach a screenshot of the relevant Graph.
-## Unity system 
+#### AFTER CODING
+
+#### Unity system 
 I want to me graded for my scriptable object unty system, you can find it being used in dialouge triggering the animator of my blound NPC. 
 
 ## Milestone 3 Devlog
