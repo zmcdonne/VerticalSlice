@@ -11,7 +11,7 @@
 ## Milestone 2 Devlog
  
 ### quick summary of my complicating gameplay feature
-Certain choices making it so you need to react to dialouge,   the end product is a dialogue system, the character reacts to you clicking on certain one needs to affect the animator and ui.
+So for the complicating factor, the NPC will have animations that play in response to dialogue, hinting at certain personality traits, as well as a visual likability score using a traffic light system to signify the overall level of success currently. I believe this adds a level of complexity that will make this project challenging enough for this class. Certain choices will require the player to react to dialogue. The end product is a dialogue system where the character reacts to the player clicking on certain responses, which will affect both the animator and the UI.
 
 #### Task breakdown
 1.
