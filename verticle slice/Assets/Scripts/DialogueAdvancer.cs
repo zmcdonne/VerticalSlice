@@ -7,7 +7,7 @@ namespace W4Activity
     public class DialogueAdvancer : MonoBehaviour
     {
         [SerializeField] 
-        private DialogueNode DialogueNode ;
+        public DialogueNode DialogueNode ;
         // Singleton stuff- allows this class to be accessed from anywhere in the codebase without a reference (like a member variable)
         // do not edit this line
         public static DialogueAdvancer _Instance {get; private set;}
