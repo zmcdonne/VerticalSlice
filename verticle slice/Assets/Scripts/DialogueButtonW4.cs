@@ -15,6 +15,7 @@ namespace W4Activity
             
             _button.onClick.AddListener(delegate
             {
+                Debug.Log("button click: " + reply);
                 DialogueAdvancer._Instance.ChooseDialogue(reply.nextNode);
             });
         }

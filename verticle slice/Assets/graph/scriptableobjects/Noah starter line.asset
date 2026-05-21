@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b0970c6ef1044920be829a40b858552, type: 3}
+  m_Name: Noah starter line
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  Line: Zoya! I am not programming allthat!
+  ReplyOptions:
+  - line: Please Noah! My game kinda homeless
+    nextNode: {fileID: 11400000, guid: 875daa9b8be1740fb8dbe8b18f4798ec, type: 2}
+  - line: you will.
+    nextNode: {fileID: 11400000, guid: 6b56066e98f834ccead17593f8d8e40e, type: 2}
+  - line: 'are you a freashman?:) '
+    nextNode: {fileID: 11400000, guid: 86d3878ba937143a58e47aa7858e8aff, type: 2}
+  EmotinalState: 0

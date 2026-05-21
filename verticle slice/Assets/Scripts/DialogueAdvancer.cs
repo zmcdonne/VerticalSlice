@@ -23,14 +23,17 @@ namespace W4Activity
             _Instance = this;
         }
 
-void Start()
-    {
-       ChooseDialogue(DialogueNode);
-    }
+        void OnEnable()
+        {
+            Debug.Log("open node: " + DialogueNode.name);
+            ChooseDialogue(DialogueNode);
+        }
+        
         // Button hooks up to this method
         // do not edit this method
         public void ChooseDialogue (DialogueNode nextLine)
         {
+            Debug.Log("choose dialogue: " + nextLine.name);
             EventBus.Trigger(EventNames.NewDialogueEvent, nextLine);
         }
     }
