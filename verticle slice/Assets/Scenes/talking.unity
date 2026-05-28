@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 35a281528c02c4e2a8e48a679cf9e61c, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -174,9 +174,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   textComponent: {fileID: 1899238465}
   lines:
-  - Hi, looks like we are both stuck here. In your mind, might as well become friends!
-  - Glad we have each other right!!
-  textSpeed: 0.67
+  - rule nr 1
+  - if you want to make a game
+  - you need to remember names
+  textSpeed: 0.02
 --- !u!223 &418396042
 Canvas:
   m_ObjectHideFlags: 0
