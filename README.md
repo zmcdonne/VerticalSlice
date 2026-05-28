@@ -57,7 +57,11 @@ I want to be graded for my scriptable object Unity system, you can find it being
 
 
 ## Milestone 3 Devlog
-Milestone 3 Devlog goes here.
+
+My ShaderGraph works. You must cite something technical about the shader (like ShaderGraph Nodes used, or concepts learned in class about vertex data or the rendering pipeline) and accurately explain the shader. Attach a screenshot of your ShaderGraph. Please make sure it's also very clear from your explanation where the graders can find this shader in the game to give you credit for it.
+2. In a paragraph or less, explain to the grading team what you improved in your gameplay based on feedback from playtesting.
+3. In a paragraph or less, explain to the grading team what new content you added since the last Milestone, and its context in the gameplay loop
+
 ## Milestone 4 Devlog
 Milestone 4 Devlog goes here.
 ## Final Devlog
