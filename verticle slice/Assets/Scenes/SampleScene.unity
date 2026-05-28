@@ -3319,10 +3319,10 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
---- !u!136 &1297044973
-CapsuleCollider:
+--- !u!65 &1297044973
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3339,11 +3339,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.2871418
-  m_Height: 2.1493402
-  m_Direction: 1
-  m_Center: {x: -0.00000042241666, y: 1.1724579, z: 0.212859}
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2.1495562, z: 0.5771735}
+  m_Center: {x: -0.0000000016866015, y: 1.2974477, z: 0.21141335}
 --- !u!4 &1332055113 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2582090934805742686, guid: a8d56576c6a8b4a2e8b3683139f30690, type: 3}

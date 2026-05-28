@@ -27,6 +27,18 @@ Material:
         m_Texture: {fileID: 2800000, guid: 33d459cb1034e48ccb9d400d804910d6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_38febdd4ec48429cbf72c801e84cf6b4_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: bbd6be92d8b464815affa4731c9277a6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_81e93a6f9f724d2bbd08438ee3979052_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 04df347699bbc4a4588889c56eb21cbd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_d27f2f61e45049b3af148857699721d7_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 2f8e7d0d7e3164d9e957c9b1e61a0fb3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
