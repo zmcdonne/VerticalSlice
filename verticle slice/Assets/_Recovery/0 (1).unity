@@ -2816,7 +2816,7 @@ MonoBehaviour:
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1959468093}
-    - {fileID: 294152604}
+    - {fileID: 0}
     - {fileID: 11400000, guid: 35906299c8a5645ad99789a7af3ae71b, type: 2}
     - {fileID: 919150821}
     - {fileID: 556141936}
