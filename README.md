@@ -58,9 +58,14 @@ I want to be graded for my scriptable object Unity system, you can find it being
 
 ## Milestone 3 Devlog
 
-My ShaderGraph works. You must cite something technical about the shader (like ShaderGraph Nodes used, or concepts learned in class about vertex data or the rendering pipeline) and accurately explain the shader. Attach a screenshot of your ShaderGraph. Please make sure it's also very clear from your explanation where the graders can find this shader in the game to give you credit for it.
-2. In a paragraph or less, explain to the grading team what you improved in your gameplay based on feedback from playtesting.
-3. In a paragraph or less, explain to the grading team what new content you added since the last Milestone, and its context in the gameplay loop
+1. My Shader Graph shown here makes a post-processing effect that adds and subtracts textures, showing the face of whoever you are annoying as a flashing effect on the screen.
+I used a decal edge mask with the sine time node to create a fade-in and fade-out effect and overlayed sevral texstures. This shader is used in the main scene of my game, where you can interact with the characters.
+
+<img width="603" height="455" alt="image" src="https://github.com/user-attachments/assets/1ce6102f-ea99-43e4-a957-b24babe6d697" />
+
+2.  Based on playtesting feedback, I increased the typing speed of the dialogue during narrative moments. I also added more dialogue, moved UI elements around, and allowed players to interact with more NPCs. In addition, I added colliders for all scene walls and gravity so the player can no longer fall off the map.
+
+3. Since the last milestone, all NPCs now react with moods and animations, which helps show how the player is performing. I added new dialogue nodes to allow for more conversations, as well as new scenes and assets for a full level. I also created a new introduction with dialogue narration to explain the story to the player, along with new assets for that sequence. I added a new post-processing shader that will eventually trigger with the face of a character if the player is making mistakes or upsetting NPCs. NPCs can also now have different dialogue in the same scene, whereas before they were limited to only one conversation per scene.
 
 ## Milestone 4 Devlog
 Milestone 4 Devlog goes here.
