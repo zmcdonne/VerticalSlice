@@ -259,14 +259,14 @@ MonoBehaviour:
   - I love everything about games.
   - Game.
   - Play.
-  - Fanservice.
+  - Fan service.
   - So naturally i wanted to become a game developer.
   - No..The best game developer
   - 'Like Hideo Kojima, Toby Fox and Yandere Dev. '
   - Everything is sunshine and rainbows.
   - I love people who make games.
-  - ' and therefore everyone will love me once I become the best. '
-  - except for the fact you need other people.:(
+  - 'Therefore everyone will love me once I become the best. '
+  - Except for the fact you need other people.:(
   - What can they offer me???
   - "I have 670000 hours in unlimited engine, i am a powerhouse\Lthey will all chant
     my name!!"
@@ -1209,7 +1209,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Mainarena
+          m_StringArgument: SampleScene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1096007840
