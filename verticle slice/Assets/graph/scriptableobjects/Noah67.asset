@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b0970c6ef1044920be829a40b858552, type: 3}
+  m_Name: Noah67
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  Line: Zoe... There is someone looking at us
+  ReplyOptions:
+  - line: Nuh uh
+    nextNode: {fileID: 11400000, guid: 7da05053c474f4035854634b342a8576, type: 2}
+  - line: 'wap wap '
+    nextNode: {fileID: 11400000, guid: dfa7fcdfe93f143518e2689cd4555053, type: 2}
+  - line: Yeah I saw
+    nextNode: {fileID: 11400000, guid: a04851e1869a946e28b379e3131ffae2, type: 2}
+  EmotinalState: 0
