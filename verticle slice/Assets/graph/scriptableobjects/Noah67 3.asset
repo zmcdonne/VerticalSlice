@@ -16,4 +16,4 @@ MonoBehaviour:
   ReplyOptions:
   - line: no
     nextNode: {fileID: 0}
-  EmotinalState: 0
+  EmotinalState: 2

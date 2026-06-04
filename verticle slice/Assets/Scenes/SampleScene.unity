@@ -946,6 +946,7 @@ GameObject:
   - component: {fileID: 330585545}
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
+  - component: {fileID: 330585548}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1071,6 +1072,20 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &330585548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 809add8bfd1c84b34b750791e97b4778, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  noEffectRenderPipeline: {fileID: 11400000, guid: 8e10e211c37bc43feba117d5ada87b25, type: 2}
+  crashoutRenderPipeline: {fileID: 11400000, guid: 4b83569d67af61e458304325a23e5dfd, type: 2}
 --- !u!4 &374146720 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4543072856547279550, guid: a8d56576c6a8b4a2e8b3683139f30690, type: 3}
@@ -1750,12 +1765,12 @@ MonoBehaviour:
       UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"UItraffic","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"UItraffic2","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Uitraffic3","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Score","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"TMPro.TextMeshProUGUI,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Score","value":null,"typeHandle":{"Identification":"TMPro.TextMeshProUGUI,
       Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ScoreVariable","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"NPCAnimator1","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Animator,
-      UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"NPCAnimator2","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Animator,
-      UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"NPCAnimator3","value":{"$content":10,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Animator,
-      UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"NPCAnimator4","value":{"$content":11,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Animator,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"NPCAnimator1","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Animator,
+      UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"NPCAnimator2","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Animator,
+      UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"NPCAnimator3","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Animator,
+      UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"NPCAnimator4","value":{"$content":10,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Animator,
       UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 55578302}
@@ -1765,7 +1780,6 @@ MonoBehaviour:
     - {fileID: 996224653}
     - {fileID: 1602285867}
     - {fileID: 1693384619}
-    - {fileID: 0}
     - {fileID: 174270440}
     - {fileID: 633686395}
     - {fileID: 1447515242}
@@ -6721,13 +6735,15 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"dialogueEventName","value":{"$content":"NewDialogue","$type":"System.String"},"typeHandle":{"Identification":"System.String,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ButtonSetupEventName","value":{"$content":"ButtonSetupEvent","$type":"System.String"},"typeHandle":{"Identification":"System.String,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"OpenDialogueEventName","value":{"$content":"OpenDialogueEventName","$type":"System.String"},"typeHandle":{"Identification":"System.String,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Renderswitcher","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"Renderswitcher,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1297044955}
     - {fileID: 1940701143}
     - {fileID: 1297044960}
     - {fileID: 556141926}
     - {fileID: 556141926}
+    - {fileID: 330585548}
 --- !u!4 &2029848130
 Transform:
   m_ObjectHideFlags: 0

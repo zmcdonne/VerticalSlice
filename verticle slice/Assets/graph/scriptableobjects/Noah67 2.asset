@@ -16,4 +16,4 @@ MonoBehaviour:
   ReplyOptions:
   - line: ait
     nextNode: {fileID: 0}
-  EmotinalState: 0
+  EmotinalState: 2
