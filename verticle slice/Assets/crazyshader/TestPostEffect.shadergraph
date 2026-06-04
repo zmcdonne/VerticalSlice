@@ -337,6 +337,20 @@
                 },
                 "m_SlotId": 1
             }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "f7d7b25074ee4df89f82d19f8ad6193c"
+                },
+                "m_SlotId": 1
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "dba37e6c1d08462b94355a34d3f782b7"
+                },
+                "m_SlotId": 1
+            }
         }
     ],
     "m_VertexContext": {
@@ -1358,10 +1372,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1158.9998779296875,
-            "y": -310.0,
-            "width": 207.9998779296875,
-            "height": 301.9999694824219
+            "x": -1123.0,
+            "y": 6.499983310699463,
+            "width": 208.0,
+            "height": 302.0000305175781
         }
     },
     "m_Slots": [
