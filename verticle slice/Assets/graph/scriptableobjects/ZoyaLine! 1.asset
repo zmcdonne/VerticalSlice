@@ -15,7 +15,7 @@ MonoBehaviour:
   Line: Yes it was! All we needed to do was looksmax
   ReplyOptions:
   - line: What?
-    nextNode: {fileID: 11400000, guid: b5f57b72c2e634b2d975f9683d62dcc9, type: 2}
+    nextNode: {fileID: 11400000, guid: 03e1dfb1692c0476eb42e66f5165ff96, type: 2}
   - line: But I was hot??
     nextNode: {fileID: 11400000, guid: bb12eee4a2dc64cd0bc79b085adca887, type: 2}
   - line: Where are the huzz?
