@@ -67,15 +67,9 @@ I used a decal edge mask with the sine time node to create a fade-in and fade-ou
 
 3. Since the last milestone, all NPCs now react with moods and animations, which helps show how the player is performing. I added new dialogue nodes to allow for more conversations, as well as new scenes and assets for a full level. I also created a new introduction with dialogue narration to explain the story to the player, along with new assets for that sequence. I added a new post-processing shader that will eventually trigger with the face of a character if the player is making mistakes or upsetting NPCs. NPCs can also now have different dialogue in the same scene, whereas before they were limited to only one conversation per scene.
 
-## ## Final Devlog
-Briefly describe your core gameplay loop and the content we can find in your game. Then, relate the gameplay and content you implemented back to your original plan for creating a Vertical Slice: how does this gameplay and content illustrate to the player what the full game would be like?
-In about a paragraph, describe how your rendering effect is activated from gameplay logic. Either attach a screenshot of the relevant Graph OR cite the relevant C# file(s) so we can find them in your repo. Accurately describe your system with technical terms.
-Describe your process for how you break down a large project into specific systems. If you don't have a process that works well for you right now, you must come up with an describe a viable plan.
-Make sure to also answer ALL of these questions in your answer:
-Do you plan on using either the bubble diagram break-downs and/or the task step break-downs we practiced this quarter in your planning process? Why or why not?
-How does the process of breaking down a large project into small steps affect your understanding of the scope of the project?
-How does the plan you're describing relate to your process of creating the Vertical Slice project? You can write about either how things went poorly and how you'd improve your process as a result, or about how things went well that you want to repeat.
-
-
+## Milestone 4 Devlog
+Milestone 4 Devlog goes here.
+## Final Devlog
+Final Devlog goes here.
 ## Open-source assets
 - Cite any external assets used here!
