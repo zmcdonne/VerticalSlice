@@ -1,6 +1,13 @@
  using UnityEngine;
  public class BehaviourScript : MonoBehaviour
- {}
+{
+    Animator animator;
+
+void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
+}
 
  
 
