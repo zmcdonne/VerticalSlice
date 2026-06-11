@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b0970c6ef1044920be829a40b858552, type: 3}
+  m_Name: DialogueLine 1
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  Line: What is it, student no. 15?
+  ReplyOptions:
+  - line: Wow, you remember my name.
+    nextNode: {fileID: 11400000, guid: 73153e0662d8546349d1ea2e6198af6e, type: 2}
+  - line: My name is Zoe.
+    nextNode: {fileID: 11400000, guid: 73153e0662d8546349d1ea2e6198af6e, type: 2}
+  - line: Professor...
+    nextNode: {fileID: 11400000, guid: 73153e0662d8546349d1ea2e6198af6e, type: 2}
+  EmotinalState: 2
