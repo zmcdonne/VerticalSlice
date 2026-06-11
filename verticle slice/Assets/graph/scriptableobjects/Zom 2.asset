@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b0970c6ef1044920be829a40b858552, type: 3}
   m_Name: Zom 2
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  Line: I hate you
+  Line: Yes! You are so great
   ReplyOptions:
   - line: okay
     nextNode: {fileID: 0}
-  EmotinalState: 0
+  EmotinalState: 2

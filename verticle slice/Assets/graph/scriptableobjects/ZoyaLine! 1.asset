@@ -12,12 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b0970c6ef1044920be829a40b858552, type: 3}
   m_Name: ZoyaLine! 1
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  Line: Yes it was! All we needed to do was looksmax
-  ReplyOptions:
-  - line: What?
-    nextNode: {fileID: 11400000, guid: 03e1dfb1692c0476eb42e66f5165ff96, type: 2}
-  - line: But I was hot??
-    nextNode: {fileID: 11400000, guid: bb12eee4a2dc64cd0bc79b085adca887, type: 2}
-  - line: Where are the huzz?
-    nextNode: {fileID: 11400000, guid: 03e1dfb1692c0476eb42e66f5165ff96, type: 2}
+  Line: Yes!! Go see for yourself.
+  ReplyOptions: []
   EmotinalState: 4
