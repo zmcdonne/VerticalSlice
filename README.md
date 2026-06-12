@@ -69,17 +69,12 @@ I used a decal edge mask with the sine time node to create a fade-in and fade-ou
 
 
 ## Final Devlog
-Briefly describe your core gameplay loop and the content we can find in your game. 
+Briefly describe your core gameplay loop and the content we can find in your game.  narrative driven game, socializer simularto, branching dialouge, find npcs who react to what you say, your socials tanding shown with the trafic light , similar to art style from " closing shift" with 3d models i made adn texstred you play as zoe a game dev prodegy but who needs to learn social skills to make games with others. My orignal plan this gampelay polished slice and ocntent 3d models showes what the first level would be like, the artisticnes, humor and artsy art style. 
 
-Then, relate the gameplay and content you implemented back to your original plan for creating a Vertical Slice: how does this gameplay and content illustrate to the player what the full game would be like?
+my rendering affact, a shader that is a conbination of alot of the characters faces post processing effect, with a dcal edge maske, with teh sin time node to create a  fade-in and fade-out effect and overlayed sevral texstures. Here is the how its affected form gameplay logic, if yot rigger the npcs crash otu state, throguth dialouge choices, marked with the crashout tag, the screen shows your panic.  I breaj dwon a large project into sustepms thinking of the cornelogical order og the gameplay and how they connect, i have a visual backgorund so illustarting things, adn then seeing how it intaracter with each other.  my current process that works the best is undersarnding what i know how to do and a nd allsit of the new rthings i will have to learn. i combine this all in a visual  bubble diagram and a lsit of big epics i need to cmplete and then broken down into more actibale steps as i have adhd. 
+I want to keep using the task break down in my planning process as i struggle with learning new things in rpogramming as i am new to this and focus and intimdiated so it helps me prepare alot more.
+breaking it down helps me learn exacly what i dont understnad how to do yet alot more so i can estimate the time to learn it alot better. for my vertical slice i knew i didnt know how visual graphs worke,d laong with most of the systems i learned how to use like branching dialouge, npc behavior, without directly copying prfessir reids scirpt, this gave me plenty of time to preplan and set aside time to attempt to learn the new thing and ask for help. 
 
-In about a paragraph, describe how your rendering effect is activated from gameplay logic. Either attach a screenshot of the relevant Graph OR cite the relevant C# file(s) so we can find them in your repo. Accurately describe your system with technical terms.
-
-Describe your process for how you break down a large project into specific systems. If you don't have a process that works well for you right now, you must come up with an describe a viable plan.
-
-Make sure to also answer ALL of these questions in your answer:
-Do you plan on using either the bubble diagram break-downs and/or the task step break-downs we practiced this quarter in your planning process? Why or why not?
-How does the process of breaking down a large project into small steps affect your understanding of the scope of the project?
 How does the plan you're describing relate to your process of creating the Vertical Slice project? You can write about either how things went poorly and how you'd improve your process as a result, or about how things went well that you want to repeat.
 ## Open-source assets
 - [Cite any external assets used here!](https://sketchfab.com/3d-models/classroom-d4553cc2008242849214e4cbf8ad8551)
