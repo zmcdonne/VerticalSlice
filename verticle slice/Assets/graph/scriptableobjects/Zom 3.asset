@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b0970c6ef1044920be829a40b858552, type: 3}
   m_Name: Zom 3
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  Line: HR???
+  Line: Yes!
   ReplyOptions:
-  - line: ahh. I am HR
+  - line: Yes!
     nextNode: {fileID: 0}
-  EmotinalState: 0
+  EmotinalState: 2

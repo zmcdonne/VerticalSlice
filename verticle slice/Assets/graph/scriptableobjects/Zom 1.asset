@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b0970c6ef1044920be829a40b858552, type: 3}
   m_Name: Zom 1
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  Line: NO NO LET ME OUT
+  Line: Yes you can do no wrong, you made it into the industry now all is well
   ReplyOptions:
   - line: ahm
     nextNode: {fileID: 0}
-  EmotinalState: 0
+  EmotinalState: 2
