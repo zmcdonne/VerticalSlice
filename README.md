@@ -67,9 +67,17 @@ I used a decal edge mask with the sine time node to create a fade-in and fade-ou
 
 3. Since the last milestone, all NPCs now react with moods and animations, which helps show how the player is performing. I added new dialogue nodes to allow for more conversations, as well as new scenes and assets for a full level. I also created a new introduction with dialogue narration to explain the story to the player, along with new assets for that sequence. I added a new post-processing shader that will eventually trigger with the face of a character if the player is making mistakes or upsetting NPCs. NPCs can also now have different dialogue in the same scene, whereas before they were limited to only one conversation per scene.
 
-## Milestone 4 Devlog
-Milestone 4 Devlog goes here.
+
 ## Final Devlog
-Final Devlog goes here.
+Briefly describe your core gameplay loop and the content we can find in your game.  narrative driven game, socializer simularto, branching dialouge, find npcs who react to what you say, your socials tanding shown with the trafic light , similar to art style from " closing shift" with 3d models i made adn texstred you play as zoe a game dev prodegy but who needs to learn social skills to make games with others. My orignal plan this gampelay polished slice and ocntent 3d models showes what the first level would be like, the artisticnes, humor and artsy art style. 
+
+my rendering affact, a shader that is a conbination of alot of the characters faces post processing effect, with a dcal edge maske, with teh sin time node to create a  fade-in and fade-out effect and overlayed sevral texstures. Here is the how its affected form gameplay logic, if yot rigger the npcs crash otu state, throguth dialouge choices, marked with the crashout tag, the screen shows your panic.  I breaj dwon a large project into sustepms thinking of the cornelogical order og the gameplay and how they connect, i have a visual backgorund so illustarting things, adn then seeing how it intaracter with each other.  my current process that works the best is undersarnding what i know how to do and a nd allsit of the new rthings i will have to learn. i combine this all in a visual  bubble diagram and a lsit of big epics i need to cmplete and then broken down into more actibale steps as i have adhd. 
+I want to keep using the task break down in my planning process as i struggle with learning new things in rpogramming as i am new to this and focus and intimdiated so it helps me prepare alot more.
+breaking it down helps me learn exacly what i dont understnad how to do yet alot more so i can estimate the time to learn it alot better. for my vertical slice i knew i didnt know how visual graphs worke,d laong with most of the systems i learned how to use like branching dialouge, npc behavior, without directly copying prfessir reids scirpt, this gave me plenty of time to preplan and set aside time to attempt to learn the new thing and ask for help. I got alot of help for the teaching team , took on alot of new things, i learned how to figure out alot more things , liked 3d modeling, branching dialouge , also how depened you are on others for game development .  I needed alot of help to get throguth this and understanding when you wount figure it out and also to struggle throguth things, being able to break down a task well enoguh so i dont lose my mind fafter the 7th hour working on it. I learned alot about solodevelopign and int he future i want to keep planning like this.
+
+
 ## Open-source assets
-- Cite any external assets used here!
+- [classroom building](https://sketchfab.com/3d-models/classroom-d4553cc2008242849214e4cbf8ad8551)
+- 
+- mixeo
+- 
