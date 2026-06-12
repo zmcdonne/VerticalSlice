@@ -16,4 +16,4 @@ MonoBehaviour:
   ReplyOptions:
   - line: 'Why do I need to work with people? '
     nextNode: {fileID: 11400000, guid: 38568886dd3af46e88a128ba24154a38, type: 2}
-  EmotinalState: 0
+  EmotinalState: 2

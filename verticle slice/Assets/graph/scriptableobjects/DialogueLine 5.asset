@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: DialogueLine 5
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   Line: I know.
-  ReplyOptions: []
+  ReplyOptions:
+  - line: The end.
+    nextNode: {fileID: 0}
   EmotinalState: 2

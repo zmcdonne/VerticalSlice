@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b0970c6ef1044920be829a40b858552, type: 3}
   m_Name: ZoyaLine! 1
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  Line: Yes!! Go see for yourself.
+  Line: Yes!! go see for yourself. It's your dream.
   ReplyOptions: []
   EmotinalState: 4

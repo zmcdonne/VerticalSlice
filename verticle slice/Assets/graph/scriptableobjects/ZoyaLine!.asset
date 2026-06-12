@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b0970c6ef1044920be829a40b858552, type: 3}
   m_Name: ZoyaLine!
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  Line: Look, we made it! We are lead game directors of the world.Everyone is exactly
-    how you like them, go see for yourself. It's your dream.
+  Line: We made it, lead game directors of the world.Everyone is exactly how you
+    like them.
   ReplyOptions:
   - line: Like a doll house?
     nextNode: {fileID: 11400000, guid: 9f97ba90e1b37410fb8d5259505d33fe, type: 2}
-  - line: So they are all my servants?
+  - line: Are all my servants?
     nextNode: {fileID: 11400000, guid: 9f97ba90e1b37410fb8d5259505d33fe, type: 2}
   - line: Unconditional love?
     nextNode: {fileID: 11400000, guid: 9f97ba90e1b37410fb8d5259505d33fe, type: 2}

@@ -20,4 +20,4 @@ MonoBehaviour:
     nextNode: {fileID: 11400000, guid: dfa7fcdfe93f143518e2689cd4555053, type: 2}
   - line: Yeah I saw
     nextNode: {fileID: 11400000, guid: a04851e1869a946e28b379e3131ffae2, type: 2}
-  EmotinalState: 2
+  EmotinalState: 0

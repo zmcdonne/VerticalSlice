@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   Line: What is it, student no. 15?
   ReplyOptions:
-  - line: Wow, you remember my name.
+  - line: You remember my name.
     nextNode: {fileID: 11400000, guid: 73153e0662d8546349d1ea2e6198af6e, type: 2}
   - line: My name is Zoe.
     nextNode: {fileID: 11400000, guid: 73153e0662d8546349d1ea2e6198af6e, type: 2}

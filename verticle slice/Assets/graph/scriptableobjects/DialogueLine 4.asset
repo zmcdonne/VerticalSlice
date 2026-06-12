@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b0970c6ef1044920be829a40b858552, type: 3}
   m_Name: DialogueLine 4
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  Line: Seeing someone play your game, seeing it matter to people, it's the people
-    that matter. You always knew this, but you let your fear get in the way.
+  Line: 'Seeing someone play your game, seeing it matter to people, it''s the people
+    that matter. '
   ReplyOptions:
   - line: You are so wise, Professor Ram Soberts.
     nextNode: {fileID: 11400000, guid: 5fd73c4cf05544cfca2ea0f4abbe6f5f, type: 2}
-  EmotinalState: 0
+  EmotinalState: 2

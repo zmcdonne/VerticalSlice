@@ -18,6 +18,6 @@ MonoBehaviour:
     nextNode: {fileID: 11400000, guid: b5e023d606873422f9f8ce221f0fbb03, type: 2}
   - line: 'I know you do '
     nextNode: {fileID: 11400000, guid: 1e028567b262241f5b7f288ecfcf3170, type: 2}
-  - line: I am glad you like me now
+  - line: You like me now
     nextNode: {fileID: 11400000, guid: b291f1d18d54d4e2fa71f49042e6fc0e, type: 2}
   EmotinalState: 2

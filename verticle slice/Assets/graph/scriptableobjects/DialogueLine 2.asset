@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b0970c6ef1044920be829a40b858552, type: 3}
   m_Name: DialogueLine 2
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  Line: 'Yeah, I think back to my time at Hurricane Studio. Just make games. Just
-    do it and be great like me!! '
+  Line: 'I think back to my time at Hurricane Studio. Just make games. Just do it
+    and be great like me!! '
   ReplyOptions:
   - line: Yes, Professor.
     nextNode: {fileID: 11400000, guid: 676c6e4fc21384ebd828092bb450de54, type: 2}
@@ -21,4 +21,4 @@ MonoBehaviour:
     nextNode: {fileID: 11400000, guid: 676c6e4fc21384ebd828092bb450de54, type: 2}
   - line: Professor...
     nextNode: {fileID: 11400000, guid: 676c6e4fc21384ebd828092bb450de54, type: 2}
-  EmotinalState: 4
+  EmotinalState: 0
